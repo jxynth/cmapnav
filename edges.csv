@@ -1,0 +1,191 @@
+# edges.csv  –  CMapNav sample city road network
+# Format: from_id,to_id,distance_km,road_name,speed_limit,road_type
+# road_type: 0=highway, 1=arterial, 2=local
+# Each direction is listed explicitly.
+from_id,to_id,distance_km,road_name,speed_limit,road_type
+# --- City Centre connections (node 0) ---
+0,1,0.4,MG Road,60,1
+1,0,0.4,MG Road,60,1
+0,10,1.5,Rajiv Boulevard,60,1
+10,0,1.5,Rajiv Boulevard,60,1
+0,24,0.9,Bus Station Road,50,1
+24,0,0.9,Bus Station Road,50,1
+0,49,0.5,Park Avenue,40,2
+49,0,0.5,Park Avenue,40,2
+0,50,0.4,Town Hall Street,40,2
+50,0,0.4,Town Hall Street,40,2
+# --- North spine MG Road (1→2→3→4→5→6→7) ---
+1,2,0.5,MG Road North,60,1
+2,1,0.5,MG Road North,60,1
+2,3,0.4,University Road,50,1
+3,2,0.4,University Road,50,1
+3,4,0.5,Research Drive,50,2
+4,3,0.5,Research Drive,50,2
+4,5,0.6,Lake Road,50,2
+5,4,0.6,Lake Road,50,2
+5,6,0.7,Botanical Road,40,2
+6,5,0.7,Botanical Road,40,2
+6,7,0.7,Western Bypass,100,0
+7,6,0.7,Western Bypass,100,0
+# --- Eastern corridor to Airport ---
+3,8,1.1,Airport Access Road,70,1
+8,3,1.1,Airport Access Road,70,1
+8,9,1.0,Industrial North Road,60,1
+9,8,1.0,Industrial North Road,60,1
+8,28,0.8,Airport Link,90,0
+28,8,0.8,Airport Link,90,0
+28,29,1.5,Airport Expressway,100,0
+29,28,1.5,Airport Expressway,100,0
+# --- Western Bypass Highway (7→13→38) ---
+7,11,1.2,Western Bypass,100,0
+11,7,1.2,Western Bypass,100,0
+11,12,0.7,NH 48,100,0
+12,11,0.7,NH 48,100,0
+12,13,0.6,NH 48,100,0
+13,12,0.6,NH 48,100,0
+13,38,1.8,Outer Ring Road,120,0
+38,13,1.8,Outer Ring Road,120,0
+# --- Eastern Riverside road (18→19→20→21→22→23) ---
+18,19,0.6,Old Town Road,40,2
+19,18,0.6,Old Town Road,40,2
+19,20,0.7,Riverside Drive,50,1
+20,19,0.7,Riverside Drive,50,1
+20,21,0.8,River Road,50,1
+21,20,0.8,River Road,50,1
+21,22,1.0,Industrial Road East,60,1
+22,21,1.0,Industrial Road East,60,1
+22,23,0.9,Freight Road,60,1
+23,22,0.9,Freight Road,60,1
+# --- Tech Park cluster ---
+14,15,0.5,IT Boulevard,60,1
+15,14,0.5,IT Boulevard,60,1
+15,16,0.6,Sarojini Avenue,50,2
+16,15,0.6,Sarojini Avenue,50,2
+16,17,0.5,Greenfield Road,40,2
+17,16,0.5,Greenfield Road,40,2
+14,39,0.8,Science Park Drive,60,1
+39,14,0.8,Science Park Drive,60,1
+39,40,0.4,Observatory Lane,40,2
+40,39,0.4,Observatory Lane,40,2
+# --- Hospital zone ---
+25,26,0.4,Hospital Road,40,2
+26,25,0.4,Hospital Road,40,2
+26,27,0.5,Medical College Avenue,40,2
+27,26,0.5,Medical College Avenue,40,2
+27,28,0.7,Airport Road,80,1
+28,27,0.7,Airport Road,80,1
+# --- Southern Civic zone ---
+30,31,0.6,Sports Road,50,2
+31,30,0.6,Sports Road,50,2
+31,32,0.4,Stadium Road,40,2
+32,31,0.4,Stadium Road,40,2
+32,33,0.5,Police Road,40,2
+33,32,0.5,Police Road,40,2
+33,34,0.6,Court Road,40,2
+34,33,0.6,Court Road,40,2
+34,35,0.5,Government Boulevard,40,2
+35,34,0.5,Government Boulevard,40,2
+35,36,0.6,Bus Depot Lane,40,2
+36,35,0.6,Bus Depot Lane,40,2
+36,37,0.7,Residential West,30,2
+37,36,0.7,Residential West,30,2
+37,38,1.2,Outer Highway West,80,1
+38,37,1.2,Outer Highway West,80,1
+# --- Link roads connecting zones ---
+0,30,1.1,Inner Circle Road,50,1
+30,0,1.1,Inner Circle Road,50,1
+10,30,0.9,Connect Road West,50,1
+30,10,0.9,Connect Road West,50,1
+10,11,0.9,NH 48 Access,80,0
+11,10,0.9,NH 48 Access,80,0
+10,49,0.4,Park South Road,40,2
+49,10,0.4,Park South Road,40,2
+49,50,0.4,Civic Lane,40,2
+50,49,0.4,Civic Lane,40,2
+50,51,0.5,Market Street,40,2
+51,50,0.5,Market Street,40,2
+51,52,0.4,Emergency Lane,50,2
+52,51,0.4,Emergency Lane,50,2
+52,53,0.5,Museum Road,40,2
+53,52,0.5,Museum Road,40,2
+53,54,0.4,Art District Road,40,2
+54,53,0.4,Art District Road,40,2
+24,18,0.8,Market Link,50,1
+18,24,0.8,Market Link,50,1
+24,25,0.7,Station Bridge,50,1
+25,24,0.7,Station Bridge,50,1
+25,45,0.6,Food Street Access,40,2
+45,25,0.6,Food Street Access,40,2
+45,46,0.4,Spice Lane,30,2
+46,45,0.4,Spice Lane,30,2
+46,47,0.6,Riverside Promenade,40,2
+47,46,0.6,Riverside Promenade,40,2
+47,48,0.7,Ferry Road,40,2
+48,47,0.7,Ferry Road,40,2
+# --- Northern Expressway spine ---
+4,14,1.4,Expressway North,100,0
+14,4,1.4,Expressway North,100,0
+14,55,0.9,Power Road,60,1
+55,14,0.9,Power Road,60,1
+55,56,0.5,Expressway Ramp,100,0
+56,55,0.5,Expressway Ramp,100,0
+56,57,0.7,Airport Express,100,0
+57,56,0.7,Airport Express,100,0
+57,58,0.6,Ring Road North,100,0
+58,57,0.6,Ring Road North,100,0
+58,59,0.7,Ring Road NW,100,0
+59,58,0.7,Ring Road NW,100,0
+# --- Cross links for reachability ---
+9,41,1.3,Exhibition Road,60,1
+41,9,1.3,Exhibition Road,60,1
+41,42,0.4,Convention Avenue,50,1
+42,41,0.4,Convention Avenue,50,1
+42,43,0.5,Hotel Boulevard,50,1
+43,42,0.5,Hotel Boulevard,50,1
+43,44,0.6,Luxury Mile,50,2
+44,43,0.6,Luxury Mile,50,2
+44,48,0.8,East End Road,50,1
+48,44,0.8,East End Road,50,1
+1,55,2.2,Northern Connector,80,1
+55,1,2.2,Northern Connector,80,1
+2,15,1.8,Expressway Feeder,80,1
+15,2,1.8,Expressway Feeder,80,1
+5,56,1.5,NW Link,80,1
+56,5,1.5,NW Link,80,1
+6,57,2.0,Airport North Link,80,1
+57,6,2.0,Airport North Link,80,1
+7,58,1.8,Ring Access NW,100,0
+58,7,1.8,Ring Access NW,100,0
+11,13,1.2,Ring Road SW,100,0
+13,11,1.2,Ring Road SW,100,0
+13,37,1.0,Outer Ring Road W,80,1
+37,13,1.0,Outer Ring Road W,80,1
+39,41,0.9,Science-Exhibition Road,50,1
+41,39,0.9,Science-Exhibition Road,50,1
+18,51,1.0,Old Market Road,40,2
+51,18,1.0,Old Market Road,40,2
+19,53,1.2,Heritage Drive,40,2
+53,19,1.2,Heritage Drive,40,2
+20,47,1.1,East River Road,50,1
+47,20,1.1,East River Road,50,1
+29,44,1.2,Airport East Road,70,1
+44,29,1.2,Airport East Road,70,1
+26,41,1.0,Hospital-Exhibition Rd,50,1
+41,26,1.0,Hospital-Exhibition Rd,50,1
+54,33,1.3,Art-Police Link,40,2
+33,54,1.3,Art-Police Link,40,2
+12,36,1.5,Industrial-Depot Road,60,1
+36,12,1.5,Industrial-Depot Road,60,1
+# --- Additional arterials for density ---
+0,51,1.0,Central Market Road,50,1
+51,0,1.0,Central Market Road,50,1
+24,45,0.5,Bus Station Market,40,2
+45,24,0.5,Bus Station Market,40,2
+3,26,1.5,University Hospital Rd,60,1
+26,3,1.5,University Hospital Rd,60,1
+4,39,1.6,Research-Science Link,70,1
+39,4,1.6,Research-Science Link,70,1
+15,55,0.8,IT-Power Link,60,1
+55,15,0.8,IT-Power Link,60,1
+50,30,0.8,Town Hall Mall Rd,50,1
+30,50,0.8,Town Hall Mall Rd,50,1

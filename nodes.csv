@@ -1,0 +1,64 @@
+# nodes.csv  –  CMapNav sample city: "Navapur City"
+# Format: node_id,lat,lon,name
+# Bounding box: lat 12.80–13.10, lon 77.50–77.75
+node_id,lat,lon,name
+0,12.9716,77.5946,City Centre Square
+1,12.9750,77.5960,North Gate Junction
+2,12.9780,77.5970,University Avenue
+3,12.9800,77.6000,University Main Gate
+4,12.9820,77.5950,Research Park Entrance
+5,12.9840,77.5920,North Lake Road
+6,12.9860,77.5880,Botanical Gardens Entry
+7,12.9870,77.5840,Western Bypass North
+8,12.9850,77.6050,Airport Access Road
+9,12.9830,77.6100,Industrial Estate North
+10,12.9700,77.5800,Rajiv Circle
+11,12.9680,77.5760,National Highway Toll
+12,12.9660,77.5720,Western Industrial Zone
+13,12.9640,77.5690,Outer Ring Road West
+14,12.9950,77.6000,Tech Park Cluster
+15,12.9980,77.5980,Navapur IT Hub
+16,13.0010,77.5960,Sarojini Nagar
+17,13.0040,77.5940,Greenfield Suburb
+18,12.9600,77.6100,Old Town Market
+19,12.9580,77.6150,Heritage Temple Road
+20,12.9560,77.6200,Eastern Riverside
+21,12.9540,77.6250,River Bridge South
+22,12.9520,77.6300,Southeast Industrial
+23,12.9500,77.6350,Freight Terminal
+24,12.9720,77.6100,Central Bus Station
+25,12.9740,77.6150,Railway Station East
+26,12.9760,77.6200,Hospital Complex
+27,12.9780,77.6250,Medical College Road
+28,12.9800,77.6300,Airport Road Junction
+29,12.9820,77.6350,Airport Terminal
+30,12.9650,77.5900,Mall Road
+31,12.9630,77.5850,Sports Complex
+32,12.9610,77.5820,Stadium Main Gate
+33,12.9590,77.5800,Police HQ
+34,12.9570,77.5780,District Court
+35,12.9550,77.5760,Government Offices
+36,12.9530,77.5740,Bus Depot West
+37,12.9510,77.5720,Western Residential
+38,12.9490,77.5700,Outer Highway West
+39,12.9910,77.6050,Science City
+40,12.9930,77.6100,Planetarium
+41,12.9870,77.6150,Exhibition Centre
+42,12.9890,77.6200,Convention Hall
+43,12.9910,77.6250,Five-Star Hotel Strip
+44,12.9930,77.6300,Luxury Apartments
+45,12.9700,77.6200,Food Street
+46,12.9720,77.6250,Spice Market
+47,12.9740,77.6300,Riverside Walk
+48,12.9760,77.6350,Ferry Terminal
+49,12.9680,77.5900,Central Park
+50,12.9660,77.5950,Town Hall
+51,12.9640,77.6000,Post Office
+52,12.9620,77.6050,Fire Station
+53,12.9600,77.6000,Museum of History
+54,12.9580,77.5950,Art Gallery
+55,12.9900,77.5900,Power Sub-station
+56,12.9920,77.5860,North Expressway Ramp
+57,12.9940,77.5820,Airport Express Junction
+58,12.9960,77.5780,Ring Road North
+59,12.9980,77.5740,Industrial Spine Road

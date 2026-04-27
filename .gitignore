@@ -1,0 +1,23 @@
+# Build artifacts
+*.o
+*.exe
+cmapnav
+
+# OSM temp/cache files
+_overpass_query.tmp
+_osm_data.json
+
+# Route exports
+route_export.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
